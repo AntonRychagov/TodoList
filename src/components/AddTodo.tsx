@@ -22,6 +22,7 @@ const AddTodo: React.FC = observer(() => {
         value={todoStore.newTodo}
         onChange={(e) => todoStore.setNewTodoText(e.target.value)}
         onKeyDown={handleKeyPress}
+        autoFocus
       />
       <Button variant="outlined" onClick={() => todoStore.addTodo()}>
         Добавить
