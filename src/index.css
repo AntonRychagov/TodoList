@@ -1,0 +1,29 @@
+html {
+  background-color: #dfdede;
+}
+
+input {
+  cursor: pointer;
+}
+
+div {
+  word-break: break-all;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
